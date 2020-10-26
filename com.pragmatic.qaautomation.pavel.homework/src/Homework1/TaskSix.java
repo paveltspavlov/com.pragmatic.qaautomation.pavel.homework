@@ -2,7 +2,7 @@ package Homework1;
 
 import java.util.Scanner;
 
-public class TaskFive {
+public class TaskSix {
 
     public static void main(String[] args) {
 
@@ -24,16 +24,13 @@ public class TaskFive {
             return;
         }
 
-        if (Num1>Num2 && Num2>Num3){
-            System.out.println(Num1+" "+Num2+" "+Num3);
-               }else if (Num2>Num1 && Num1>Num3){
-                System.out.println(Num2+" "+Num1+" "+Num3);
-                    } else if (Num3>Num2 && Num2>Num1){
-                    System.out.println(Num3+" "+Num2+" "+Num1);
-                        } else if (Num3>Num1 && Num1>Num2){
-                        System.out.println(Num3+" "+Num1+" "+Num2);
-                            } else if (Num2>Num3 && Num3>Num1){
-                            System.out.println(Num2+" "+Num1+" "+Num1);
-                            }
+        int buff= Num3;
+
+        Num3 = Num1;
+        Num1 = Num2;
+        Num2 = buff;
+
+        System.out.println(Num1 + " "+ Num2 + " " + Num3);
+
     }
 }
