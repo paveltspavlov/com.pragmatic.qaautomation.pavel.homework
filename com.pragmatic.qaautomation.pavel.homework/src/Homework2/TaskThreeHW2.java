@@ -7,13 +7,12 @@ public class TaskThreeHW2 {
         double i1 = -10, i2 = 2;
 
 
-               double mod2 = i1 % i2;
-        if (mod2==0) {
+        do {
+            double mod2 = i1 % i2;
+            if (mod2 != 0) {
+                System.out.println(i1);
+            }
             i1++;
-        } else do {
-            System.out.println(mod2);
-        }while (i1<11);
-
-
+        }while (i1 <= 10);
        }
     }
