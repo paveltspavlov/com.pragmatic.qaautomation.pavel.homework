@@ -20,7 +20,7 @@ public class TaskFiveHW2 {
             return;
         }
 
-        if(Num1>Num2) {
+        if(Num1<Num2) {
             do {
                 System.out.println(Num1);
                 Num1++;
