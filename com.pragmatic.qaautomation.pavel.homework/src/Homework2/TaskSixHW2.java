@@ -11,7 +11,7 @@ public class TaskSixHW2 {
         Scanner getNum = new Scanner(System.in);
         System.out.println("Enter a number:");
         double Num = getNum.nextDouble();
-//        double count;
+
         double sum=0;
         int i=1;
         double buff = Num;
