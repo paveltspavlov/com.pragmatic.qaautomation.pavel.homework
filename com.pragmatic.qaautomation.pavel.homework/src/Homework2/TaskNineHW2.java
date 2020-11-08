@@ -9,6 +9,8 @@ import java.util.Scanner;
 // Ако някое число е кратно на 3, да се  изведе  съобщение  че  числото  сепропуска  „skip  3“.
 // Ако  сумата  от  всички изведени  числа  (без  пропуснатите)  стане по-голямаот  200,  да  се  прекрати извеждането.
 
+//Example: Въдете А:1 Въведете B107
+// Output: 1, 4, skip 3, 16, 25, skip 6, 49, 64, skip 9, 100
 
 public class TaskNineHW2 {
     public static void main(String[] args) {
