@@ -1,12 +1,12 @@
 package Homework2;
 
-public class TaskTwoHW2 {
+public class Task1HW2 {
     public static void main(String[] args) {
 
-        long i=-20;
-        do {
+        for (int i=1;i<101;i++){
+
             System.out.println(i);
-            i++;
-        }while (i<51);
+
+        }
     }
 }

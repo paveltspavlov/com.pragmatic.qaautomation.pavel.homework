@@ -1,6 +1,6 @@
 package Homework2;
 
-public class TaskFourHW2 {
+public class Task4HW2 {
 
     public static void main(String[] args) {
 

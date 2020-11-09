@@ -2,7 +2,7 @@ package Homework2;
 
 import java.util.Scanner;
 
-public class TaskSixHW2 {
+public class Task6HW2 {
     public static void main(String[] args) {
 
 //        Грешно подадено условие. Трябва да е "Сбора на всички числа от 1 до въведеното число"
