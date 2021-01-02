@@ -11,6 +11,7 @@ public class ComputerDemo {
         computerOne.isNotebook = true;
         computerOne.hardDiscMemory = 4096;
         computerOne.freeMemory = 2048;
+        computerOne.useMemory(1948);
         computerOne.operationSystem = "Linux";
 
         computerTwo.year = 2015;
@@ -18,6 +19,8 @@ public class ComputerDemo {
         computerTwo.isNotebook = false;
         computerTwo.hardDiscMemory = 6146;
         computerTwo.freeMemory = 4096;
+        computerTwo.operationSystem = "Linux";
+        computerTwo.changeOperationSystem("MacOS");
 
     }
 
