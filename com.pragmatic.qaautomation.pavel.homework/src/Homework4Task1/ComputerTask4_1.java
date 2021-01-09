@@ -2,11 +2,11 @@ package Homework4Task1;
 
 public class ComputerTask4_1 {
     int year;
-    float price;
+    double price;
     boolean isNotebook;
-    float hardDiscMemory;
+    double hardDiscMemory;
     double freeMemory;
-    String operationSystem = "Windows";
+    String operationSystem;
 
     void changeOperationSystem(String newOperationSystem) {
         System.out.println("The old OS is"+operationSystem);
@@ -46,6 +46,31 @@ public class ComputerTask4_1 {
     }
 
     ComputerTask4_1(int year, double price, double hardDiskMemory, double freeMemory){
+        //calls the default constructor
+        this();
+        //initialize the fields
+        this.year = year;
+        this.price = price;
+        this.hardDiscMemory = hardDiskMemory;
+        this.freeMemory = freeMemory;
 
+    }
+
+    ComputerTask4_1(int year, double price, boolean isNotebook,double hardDiskMemory, double freeMemory, String operationSystem){
+        this.year = year;
+        this.price = price;
+        this.isNotebook = isNotebook;
+        this.hardDiscMemory = hardDiskMemory;
+        this.freeMemory = freeMemory;
+        this.operationSystem = operationSystem;
+    }
+
+    int comparePrice(ComputerTask4_1 otherComp){
+        if (price > otherComp.price) {
+            return -1;
+        } else if(price < otherComp.price){
+            return 1;
+        }
+        return 0;
     }
 }
