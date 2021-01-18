@@ -67,10 +67,13 @@ public class ComputerTask4_1 {
 
     int comparePrice(ComputerTask4_1 otherComp){
         if (price > otherComp.price) {
+            System.out.println("Price is greater");
             return -1;
         } else if(price < otherComp.price){
+            System.out.println("Price is lower");
             return 1;
         }
+        System.out.println("Prices are equal");
         return 0;
     }
 }
