@@ -8,7 +8,7 @@ public class StudentGroup{
     StudentGroup(){
         freePlace=5;
         Student[] students = new Student[];
-        students[0]={Ivan};
+        students[0]={};
     }
 
 }
