@@ -47,8 +47,6 @@ public class Student {
     }
 
     double receiveScholarship(double min, double amount){
-        Scanner minAge = new Scanner(System.in);
-        min = minAge.nextDouble();
 
         if(grade>=min  && age<30){
             money=+amount;

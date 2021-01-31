@@ -6,6 +6,6 @@ public class StudentDemo {
         Student Ivan = new Student();
         Ivan.upYear();
         Ivan.receiveScholarship(3,300);
-        System.out.println("Ivan's money"+Ivan.money);
+        System.out.println("Ivan's money "+Ivan.money);
     }
 }
