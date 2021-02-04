@@ -16,11 +16,11 @@ public class Student {
         money = 0;
     }
 
-    Student(double grade, int yearInCollege, boolean isDegree, double money){
+    Student(String name, String subject, int age){
         this();
-        this.name = "Bai Hui";
-        this.subject = "TUT";
-        this.age = 19;
+        this.name = name;
+        this.subject = subject;
+        this.age = age;
 
     }
 
