@@ -17,7 +17,7 @@ public class TaskTwo {
         if (Num1 == Num2) {
             System.out.println("Number " + Num1 + " should be different " + Num2);
             return;
-        } else if (Num1 == zero && Num2 == zero) {
+        } else if (Num1 == zero || Num2 == zero) {
             System.out.println("Number " + Num1 + " and " + Num2+" should be different than 0");
             return;
         }
