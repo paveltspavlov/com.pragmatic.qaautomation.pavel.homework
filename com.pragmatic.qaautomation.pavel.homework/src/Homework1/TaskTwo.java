@@ -37,13 +37,13 @@ public class TaskTwo {
         int mult = Num1*Num2;
             System.out.println(Num1+" times"+Num2+" is"+mult);
 
-        if (Num1>Num2 && Num1!= zero && Num2!= zero){
+        if (Num1>Num2){
             int division = Num1/Num2;
             int mod = Num1%Num2;
             System.out.println(Num1 + " divided by "+Num2+" is "+division);
             System.out.println("The module of "+Num1 + " divided by "+Num2+" is "+mod);
         }
-            else if (Num1 != zero && Num2 != zero){
+            else {
                 int division2 = Num2/Num1;
                 int mod2 = Num2 % Num1;
             System.out.println(Num1 + " divided by "+Num2+" is "+division2);
